@@ -1,0 +1,51 @@
+<table mdbTable  bordered="true">
+    <thead>
+      <tr>
+        <th *ngFor="let head of headElements" scope="col">{{head}} </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr mdbTableCol *ngFor="let el of elements">
+
+        <td>{{el.first}}</td>
+        <td>{{el.fvalue}}</td>
+        <td>{{el.second}}</td>
+        <td>{{el.svalue}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="container" style="margin-top: 20px;">
+    <h5><b>About Company</b></h5>
+    <ul class="list-group" style="border:none">
+        <li class="list-group-item" style="border:none">
+            <p>Reliance Retail Limited is the retail initative of Reliance Industries Limited Founded in2006,
+                it is the largest retailer in India in terms of revenue.
+            </p>
+        </li>
+        <li class="list-group-item" style="border:none">
+            <p>Company's headquarter is in Mumbai and Mr.Mukesh Ambani is the founder while
+               V Subramaninam is the CEO of the company. 
+
+            </p>
+        </li>
+        <li class="list-group-item" style="border:none">
+            Reliance retail outlets offer foods,groceries,apparel,footwear,
+            lifestyle and home improvement products,electronic goods company's outlets
+            also provide vegetables,friuts,and flowers
+        </li>
+        <li class="list-group-item" style="border:none">
+            <p>It also focuses on consumer goods,consumer durables,travel services
+                energy,entertainment and leisure,health and well-being products,
+                aswell as on eductional products and services
+            </p>
+        </li>
+        <li class="list-group-item" style="border:none">
+            <p>Reliance Retail reported a turnover of Rs.1,30,566 crores for the financial year 2018-2019.</p>
+        </li>
+        <li class="list-group-item" style="border:none">
+            Reliance Retails operates 10,644 stores across 6,700+
+            cities with a retail area of over 23 million sft.
+        </li>
+    </ul>
+  </div>
